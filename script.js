@@ -1,9 +1,9 @@
 function change() {
-  const element = document.querySelector('body')
-  const button = element.querySelector('button')
+  const body = document.querySelector('body')
+  const button = body.querySelector('button')
   
   button.classList.toggle('slide') 
-  element.classList.toggle('light_theme')
+  body.classList.toggle('light_theme')
   
 
 }
